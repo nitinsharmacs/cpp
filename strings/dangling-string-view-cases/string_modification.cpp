@@ -13,9 +13,14 @@ int main(int argc, char const *argv[])
     print(sv);
 
     print("After modification.");
-    name = "William Sen";
+    name = "Williem Sen";
     print(sv.length());
     print(sv);
     // only prints "William " as string view views original memory length string.
+
+    print("Trying a small length string. There should be garbage characters.");
+
+    name = "John";
+    print(sv);
     return 0;
 }
