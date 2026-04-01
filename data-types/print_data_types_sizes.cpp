@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
 
     std::cout << std::setw(16) << "void:" << sizeof(void) << " bytes\n";
     std::cout << std::setw(16) << "int:" << sizeof(int) << " bytes\n";
+    std::cout << std::setw(16) << "unsigned int:" << sizeof(unsigned int) << " bytes\n";
     std::cout << std::setw(16) << "short:" << sizeof(short) << " bytes\n";
     std::cout << std::setw(16) << "unsigned short:" << sizeof(unsigned short) << " bytes\n";
     std::cout << std::setw(16) << "long long int:" << sizeof(long long int) << " bytes\n";
