@@ -3,3 +3,4 @@
 .vscode
 *.i
 *.out
+*.s

@@ -37,6 +37,13 @@ auto withConditionalLog(int value)
     return value;
 }
 
+template <int N>
+constexpr int identity()
+{
+    constexpr int value{N};
+    return value;
+}
+
 int main(int argc, char const *argv[])
 {
 
@@ -44,6 +51,7 @@ int main(int argc, char const *argv[])
     // std::cout << factorial<-3>();
     // print<5>();
 
+    std::cout << identity<1>();
     withConditionalLog<'y'>(1);
     withConditionalLog<'n'>(1);
     return 0;
