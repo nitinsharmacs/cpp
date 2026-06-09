@@ -10,6 +10,6 @@ T addOne(T a)
 int main(int argc, char const *argv[])
 {
     using namespace std::literals::string_literals;
-    std::cout << addOne("Hello world"s);
+    std::cout << addOne<int>(1);
     return 0;
 }

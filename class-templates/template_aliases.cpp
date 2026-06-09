@@ -31,7 +31,7 @@ int main(int argc, char const *argv[])
     IntCollection c1{1, 2};
     printCollection(c1);
 
-    IntPair<float> p3{1.4, 3};
+    IntPair p3{1.4, 3};
     printCollection(p3);
 
     IntPair p4{1.4, 3};
